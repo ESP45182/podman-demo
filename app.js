@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : false}));
 
 app.get('/',(req,res) => {
-    res.send("Podman Demo is running");
+    res.send("Demo de Podman para Diputació de Barcelona.");
 });
 
 
